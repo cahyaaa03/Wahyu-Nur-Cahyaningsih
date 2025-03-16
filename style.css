@@ -5,13 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Body */
+
 body {
     background-color: #eef2f3;
     color: #333;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
     padding: 15px 20px;
 }
 
-/* Logo */
+
 .logo {
     font-size: 30px; 
     font-weight: bold;
@@ -63,7 +63,7 @@ header {
     transition: 0.3s ease-in-out;
 }
 
-/* Efek Glow */
+
 .logo::after {
     content: "";
     position: absolute;
@@ -103,7 +103,7 @@ header {
 
 
 
-/* Wellcome Section */
+
 .wellcome {
     text-align: center;
     padding: 60px 10%;
@@ -112,7 +112,7 @@ header {
     width: 100%;
 }
 
-/* Marquee Container */
+
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
@@ -121,7 +121,7 @@ header {
     padding: 15px 0;
 }
 
-/* Efek Marquee */
+
 .marquee {
     display: inline-block;
     font-size: 32px;
@@ -167,7 +167,7 @@ header {
     color: black; 
 }
 
-/* Responsif */
+
 @media (max-width: 768px) {
     .wellcome {
         padding: 40px 5%;
@@ -268,7 +268,7 @@ header {
     color: #555;
 }
 
-/* Galeri Teknologi */
+
 .gallery {
     text-align: center;
     padding: 50px 20px;
@@ -301,7 +301,7 @@ header {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
